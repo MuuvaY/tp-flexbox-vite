@@ -1,0 +1,86 @@
+@import "vendors/reset.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+.card {
+  background-color: #9acd32;
+  border: solid 10px #fdeb00;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+.header__namePokemon {
+  font-size: 0.7rem;
+}
+
+.header__name {
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header__subtitle {
+  font-size: 1.5rem;
+  color: #ff0000;
+  font-weight: bold;
+}
+.card__body {
+  figcaption {
+    background: linear-gradient(to right, #fdeb00, #79751d);
+    font-size: 0.8rem;
+    padding: 0.125rem 0.8rem;
+  }
+}
+.card__image {
+  border: solid 5px #fdeb00;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+  flex-grow: 1;
+}
+.description__type {
+  flex-shrink: 0;
+}
+.description__text {
+  margin: 10px;
+  flex: 2.5;
+  span {
+    font-weight: bold;
+  }
+}
+.description__dammage {
+  font-size: 1.8rem;
+  flex: 1;
+}
+.footer {
+}
+.footer__attack ul {
+  border-top: solid 2px black;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  li {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+.footer__description {
+  border: solid 2px #fdeb00;
+  padding: 2px;
+  font-size: 0.8rem;
+  margin-top: auto;
+}
